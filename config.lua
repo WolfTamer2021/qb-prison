@@ -5,17 +5,17 @@ Config = {}
 -------------------
 Config.Debug = false -- Set to true for server/client prints
 Config.DebugPoly = false -- Set to true to debug PolyZones
-Config.Crafting = true -- Set to false to disable crafting or if you own qb-prisonjobs
+Config.Crafting = false -- Set to false to disable crafting or if you own qb-prisonjobs
 
 -------------------------
 --Extra Config Options --
 -------------------------
 Config.PrisonMap =  'gabz' -- Set to 'gabz' or 'qb'
-Config.RemoveJobs = false -- Set to false if you don't want to remove player's job.
+Config.RemoveJobs = true -- Set to false if you don't want to remove player's job.
 
 -- If you are using qb-prisonjobs by xThrasherrr#6666 then set this to true
 -- https://thrasherrrdev.tebex.io/package/5226873
-Config.QB_PrisonJobs = false
+Config.QB_PrisonJobs = true
 
 -- If Config.QB_PrisonJobs = false, these workout vales will be used
 Config.Workout = {
